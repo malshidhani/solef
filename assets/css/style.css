@@ -1959,6 +1959,10 @@ h5 {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
+.bg-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212, 89, 6);
+}
 
 .bg-colorCodGray {
   --tw-bg-opacity: 1;
@@ -2032,14 +2036,27 @@ h5 {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\#5636C7\] {
+/* .from-\[\#5636C7\] {
   --tw-gradient-from: #5636C7 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(86 54 199 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+} */
+
+
+.from-\[\#5636C7\] {
+  --tw-gradient-from: #fcae06 var(--tw-gradient-to-position);
   --tw-gradient-to: rgb(86 54 199 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[rgba\(255\2c 255\2c 255\2c \.1\)\] {
+/* .from-\[rgba\(255\2c 255\2c 255\2c \.1\)\] {
   --tw-gradient-from: rgba(255,255,255,.1) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(255, 255, 255, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+} */
+
+.from-\[rgba\(255\2c 255\2c 255\2c \.1\)\] {
+  --tw-gradient-from: rgba(255,100,0,.1) var(--tw-gradient-from-position);
   --tw-gradient-to: rgba(255, 255, 255, 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
@@ -2053,12 +2070,20 @@ h5 {
 }
 
 .to-\[\#5028DD\] {
-  --tw-gradient-to: #5028DD var(--tw-gradient-to-position);
+  --tw-gradient-to: #f5c45c var(--tw-gradient-to-position);
 }
+/* .to-\[\#5028DD\] {
+  --tw-gradient-to: #5028DD var(--tw-gradient-to-position);
+} */
+
+/* .to-\[rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-gradient-to: rgba(0,0,0,0.5) var(--tw-gradient-to-position);
+} */
 
 .to-\[rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
-  --tw-gradient-to: rgba(0,0,0,0.5) var(--tw-gradient-to-position);
+  --tw-gradient-to: rgba(255,100,0, 0) var(--tw-gradient-to-position);
 }
+
 
 .bg-contain {
   background-size: contain;
